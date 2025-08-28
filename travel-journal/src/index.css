@@ -1,0 +1,111 @@
+body{
+    margin: 0;    
+}
+
+header{
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    gap: 7px;
+}
+
+header > img{
+    width: 40px;
+    opacity: 0.8;
+    
+}
+
+header > span{
+    color: white;
+    font-family: Montserrat, Roboto, "Noto Sans";
+    font-weight: bold;
+}
+
+
+/* All about the places cards */
+
+.place-container{
+    display: flex;
+    padding: 0px;
+    width: 600px;
+    min-height: 215px;
+    background-color: beige;
+    margin-bottom: 7px;
+}
+.picture-container{
+    background-color: white;
+    width: 27%;
+    /* height: 100%; */
+}
+
+.picture-container > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.places{
+    background-color: beige;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+}
+/* All about the text in the cards */
+.text-container{
+    width: 73%;
+    min-height: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.text-container > .place-header{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.text-container > h1 {
+    margin: 0; /* removes the gap */
+    padding-left: 20px; /* keep aligned with header */
+    font-family: Montserrat, "Noto Sans", Roboto;
+}
+
+
+.place-header > img{
+    width: 27px;
+    height: 30px;
+    margin-right: 5px;
+    padding-bottom: 0%;
+}
+
+.place-header > p{
+    font-family: 'Noto Sans', Roboto, Montserrat;
+    padding-bottom: 0px;
+}
+.place-name{
+    letter-spacing: 2px;
+}
+
+.google-link{
+    margin-left: 3%;
+    font-size: 80%;
+}
+
+.about-place > p{
+    margin-left: 20px;
+    font-family: "Noto Sans", Montserrat, Roboto;
+    font-size: 13px;
+    padding-right: 3px;
+}
+
+.about-place > .place-description{
+    padding-top: 0px;
+}
+
